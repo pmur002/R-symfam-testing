@@ -86,11 +86,11 @@ The new `cairoSymbolFont()` function is designed to allow the user
 to specify that the symbol font does NOT use Private Use Area (PUA) code points.
 By default, R uses PUA code points with the symbol font.
 
-This might be harder to demostrate, but if you got some missing symbols
+This might be harder to demonstrate, but if you got some missing symbols
 in the previous test, you will hopefully see them filled in on this test.
 
 **It would be useful to know if the following code runs and
-produces output that is different from the default (above)
+produces output that is an improvement on the previous test
 on macOS and on Windows.**
 
 ```
@@ -105,15 +105,15 @@ Again, you will need to choose a font that is installed on your system
 and ideally it will be a font with a wide Unicode coverage.  If you use 
 the same font for this test as the previous test, you will hopefully 
 see some (positive) differences.  If you use a new font here, you should
-see differences between just using `symbolfamily="fontname"` and
+see differences between just using `symbolfamily="fontname"` and using
 `symbolfamily=cairoSymbolFont("fontname", usePUA=FALSE)`.
 
 Thanks for any help you can give!
 
 Paul
 -- 
-Dr Paul Murrell
-Department of Statistics
-The University of Auckland
-paul@stat.auckland.ac.nz
+Dr Paul Murrell\
+Department of Statistics\
+The University of Auckland\
+paul@stat.auckland.ac.nz\
 http://www.stat.auckland.ac.nz/~paul/
