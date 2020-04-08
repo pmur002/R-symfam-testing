@@ -78,7 +78,7 @@ Symbol Encoding symbols
 (i.e., the output looks yuk, with missing glyphs).
 Just looking for evidence that we are able to select a different font
 at this stage.  Some possibilities are "Helvetica" or 
-"Apply Symbol" on macOS (?) and "Arial" on Windows (?).
+"Apple Symbol" on macOS (?) and "Arial" on Windows (?).
 
 ## Testing the new `cairoSymbolFont()` function
 
